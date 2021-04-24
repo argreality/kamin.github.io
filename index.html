@@ -3,11 +3,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
-    <script
-      nomodule
-      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
-    ></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 <body>
   <script>
@@ -71,7 +67,7 @@
 	<div class="background-demo">
 		<span style="position: absolute; ; text-align: center; font-size: 70px; top:50%;">
 		</span>
-  		<model-viewer camera-controls autoplay src="models/kamin.glb" ar ar-modes="webxr quick-look fallback"
+  		<model-viewer camera-controls autoplay src="models/kamin.glb" ar ar-modes="webxr scene-viewer quick-look"
 		ar-scale="auto" auto-rotate camera-controls alt="model" ios-src="models/kamin.usdz">
 			<button slot="ar-button" id="ar-button">
   				Открыть в AR
